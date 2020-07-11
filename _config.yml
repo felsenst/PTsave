@@ -26,7 +26,7 @@ kramdown:
 contact_email: nobody&#x002b;racartwright&#x0040; &#x0040;nowhere&#x002e;gmail&#x002e;com
 owner_link: https://felsenst.github.io/PT/
 title: "The Panda's Thumb"
-image: /PT/media/roar.jpg
+image: /media/roar.jpg
 jquery: '3.1.1'
 jqueryui: '1.12.1'
 
@@ -37,6 +37,6 @@ defaults:
       path: ''
       type: 'posts'
     values:
-      permalink: '/PT/archives/:year/:month/:title.html'
+      permalink: '/archives/:year/:month/:title.html'
       layout: 'article'
       comments: true
