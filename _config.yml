@@ -2,7 +2,7 @@
 permalink: date
 timezone: America/Phoenix
 encoding: UTF-8
-baseurl: '/PT'
+baseurl: 'https://felsenst.github.io/PT'
 url: https://felsenst.github.io/PT/
 relative_permalinks: false
 exclude: [Guardfile, Gemfile, Gemfile.lock]
