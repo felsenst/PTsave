@@ -3,7 +3,7 @@ permalink: date
 timezone: America/Phoenix
 encoding: UTF-8
 baseurl: ''
-url: https://pandasthumb.org
+url: https://felsenst.github.io/PT/
 relative_permalinks: false
 exclude: [Guardfile, Gemfile, Gemfile.lock]
 excerpt_separator: "<!--more-->"
@@ -24,7 +24,7 @@ kramdown:
 
 # Site Configuration Options
 contact_email: nobody&#x002b;racartwright&#x0040; &#x0040;nowhere&#x002e;gmail&#x002e;com
-owner_link: https://pandasthumb.org/
+owner_link: https://felsenst.github.io/PT/
 title: "The Panda's Thumb"
 image: /media/roar.jpg
 jquery: '3.1.1'
