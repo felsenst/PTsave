@@ -15,12 +15,12 @@
   <meta property="og:description" content="{{ site.description }}" />\
 {% endif %}
 {% if page.url %}
-  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}PT/{{ page.url }}" />\
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />\
 {% endif %}
 {% if page.image %}
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}PT/{{ page.image }}" />\
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}" />\
 {% elsif site.image %}
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}PT/{{ site.image }}" />\
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.image }}" />\
 {% endif %}
 {% if page.author %}
   <meta property="article:author" content="{{ page.author }}" />\
