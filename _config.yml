@@ -3,7 +3,7 @@ permalink: date
 timezone: America/Phoenix
 encoding: UTF-8
 baseurl: '/PT'
-url: "https://felsenst.github.io/"
+url: "https://felsenst.github.io"
 relative_permalinks: false
 exclude: [Guardfile, Gemfile, Gemfile.lock]
 excerpt_separator: "<!--more-->"
@@ -37,6 +37,6 @@ defaults:
       path: ''
       type: 'posts'
     values:
-      permalink: '/archives/:year/:month/:title.html'
+      permalink: '/PT/archives/:year/:month/:title.html'
       layout: 'article'
       comments: true
