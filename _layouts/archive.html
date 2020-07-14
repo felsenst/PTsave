@@ -8,7 +8,8 @@ header_title: Archives
       <article>
         <header>
           <h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
-<ul class="posts">
+        </header>
+        <ul class="posts">
 {% for post in page.posts %}
   <li>
     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
