@@ -19,7 +19,7 @@ jekyll-archives:
     - year
   layout: archive
   permalinks:
-    year: /PT/archives/:year/
+    year: archives/year/:year/
 
 kramdown:
   header_offset: 1
