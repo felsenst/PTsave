@@ -12,6 +12,7 @@ highlighter: rouge
 
 plugins:
   - jekyll-feed
+  - jekyll-archives
   
 jekyll-archives:
   enabled:
