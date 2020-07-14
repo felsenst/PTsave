@@ -41,6 +41,6 @@ defaults:
       path: ''
       type: 'posts'
     values:
-      permalink: '/PT/archives/:year/:month/:title.html'
+      permalink: 'archives/:year/:month/:title.html'
       layout: 'article'
       comments: true
