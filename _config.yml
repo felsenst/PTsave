@@ -12,7 +12,7 @@ highlighter: rouge
 
 plugins:
   - jekyll-feed
-  - jekyll-archives
+  - jekyll-archives, :git => 'https://github.com/jekyll/jekyll-archives', :branch => 'master'
   
 jekyll-archives:
   enabled:
