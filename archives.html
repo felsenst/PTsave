@@ -2,7 +2,7 @@
 layout: default
 regenerate: true
 title: Archives
-permalink: archives/
+permalink: /archives/
 ---
 <section class="archive">
   <div class="grid item">
@@ -14,7 +14,8 @@ permalink: archives/
         TEST
         <ul class="archivelist">
         {% for year in site.archives reversed %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}/archives/{{ year.url }}">{{ year.posts[0].date | date:"%Y" }}</a></li>
+          <li> {{ year.url }} TEST3 </li>
+          <li> TEST2 <a href="{{ site.url }}{{ site.baseurl }}/archives/{{ year.url }}">{{ year.posts[0].date | date:"%Y" }}</a></li>
         {% endfor %}
         </ul>
       </article>
