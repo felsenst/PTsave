@@ -15,8 +15,7 @@ permalink: /archives/
         {{ site.archives }}
         <ul class="archivelist">
         {% for year in site.archives reversed %}
-          <li> {{ year.url }} TEST3 </li>
-          <li> TEST2 <a href="{{ site.url }}{{ site.baseurl }}/archives/{{ year.url }}">{{ year.posts[0].date | date:"%Y" }}</a></li>
+          <li> <a href="{{ site.url }}{{ site.baseurl }}/archives/{{ year.url }}">{{ year.posts[0].date | date:"%Y" }}</a></li>
         {% endfor %}
         </ul>
       </article>
