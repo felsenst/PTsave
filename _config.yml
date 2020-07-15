@@ -19,7 +19,7 @@ jekyll-archives:
     - year
   layout: archive
   permalinks:
-    year: 'archives/year/:year/'
+    year: '/archives/year/:year/'
 
 kramdown:
   header_offset: 1
@@ -41,6 +41,6 @@ defaults:
       path: ''
       type: 'posts'
     values:
-      permalink: 'archives/:year/:month/:title.html'
+      permalink: '/archives/:year/:month/:title.html'
       layout: 'article'
       comments: true
