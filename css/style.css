@@ -43,7 +43,7 @@ body > footer {
 }
 
 html {
-  background: url(/media/bamboo.jpg) no-repeat top fixed;
+  background: url(media/bamboo.jpg) no-repeat top fixed;
   background-size: cover;
 
 }
@@ -102,7 +102,7 @@ header h1 {
 
 .topbar > div.grid {
   position: relative;
-  background: #000 url(/media/banner-background.png) repeat-y;
+  background: #000 url(media/banner-background.png) repeat-y;
   background-position: 0 0;
   background-size: contain;
 }
