@@ -1,4 +1,4 @@
-_site/
+# _site/  (commented out)
 .sass-cache/
 .jekyll-metadata
 .local
