@@ -5,7 +5,7 @@ author: Dan Phelps
 ---
 
 <figure>
-<img src="/uploads/2020/Ham_Tweet.jpg" alt="Mr. Ham's Tweet"/>
+<img src="/PT/uploads/2020/Ham_Tweet.jpg" alt="Mr. Ham's Tweet"/>
 <figcaption>
 </figcaption>
 </figure>
