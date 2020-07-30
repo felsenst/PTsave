@@ -1,0 +1,13 @@
+---
+layout: default
+---
+  <section class="blog">
+    <div class="grid">
+      <div class="unit whole">
+        {{ content | replace: '<!--more-->', '<a class="anchor" id="more"></a>' }}
+      </div>
+{% if jekyll.environment == "production" %}
+   {% include disqus.html %}
+{% endif %}
+    </div>
+  </section>

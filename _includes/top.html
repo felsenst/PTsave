@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{% if page.header_title and page.header_title != '' %}{{ page.header_title }}: {% endif %}{% if page.type == 'year' %}{{ page.date | date: "%Y" }}{% else %}{{ page.title }}{% endif %}</title>
+  {% include og_meta.html %}
+  <link rel="stylesheet" type='text/css' href="{{ site.baseurl }}/css/normalize.css" />
+  <link rel="stylesheet" type='text/css' href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic,700italic|Source+Code+Pro:400,700" />
+  <link rel="stylesheet" type='text/css' href="{{ site.baseurl }}/css/gridism.css" />
+  <link rel="stylesheet" type='text/css' href="{{ site.baseurl }}/css/style.css" />
+  <link rel="stylesheet" type='text/css' href="{{ site.baseurl }}/css/github.css" />
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-{{ site.jquery }}.min.js"></script>
+  <script type="text/javascript" src="https://use.fontawesome.com/e6a24c6dde.js"></script>
+  <script type="text/javascript" async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>  
+  <script src="{{ site.baseurl }}/js/local.js"></script>
+{% if page.top_extra %}{{ page.top_extra | liquify }}{% endif %}
+</head>
